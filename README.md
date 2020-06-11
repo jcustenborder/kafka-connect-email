@@ -1,7 +1,7 @@
 # Introduction
 [Documentation](https://jcustenborder.github.io/kafka-connect-documentation/projects/kafka-connect-email) | [Confluent Hub](https://www.confluent.io/hub/jcustenborder/kafka-connect-email)
 
-This plugin provides connectors to use when integrating with email systems.
+This plugin provides connector(s) and transformation(s) to use when integrating with email systems.
 
 # Installation
 
@@ -33,7 +33,7 @@ to run the plugin.
 com.github.jcustenborder.kafka.connect.email.IMAPSourceConnector
 ```
 
-This connector is used to connect to an email server over the IMAP protocol.
+This connector is used to connect to an email server over the IMAP protocol. Each new message in the configured folder will be parsed as a MIME message and written to the configured Kafka topic.
 ### Configuration
 
 #### General
