@@ -16,8 +16,10 @@
 @PluginName("kafka-connect-email")
 @PluginOwner("jcustenborder")
 @Introduction("This plugin provides connector(s) and transformation(s) to use when integrating with email systems.")
+@Title("Email")
 package com.github.jcustenborder.kafka.connect.email;
 
 import com.github.jcustenborder.kafka.connect.utils.config.Introduction;
 import com.github.jcustenborder.kafka.connect.utils.config.PluginName;
 import com.github.jcustenborder.kafka.connect.utils.config.PluginOwner;
+import com.github.jcustenborder.kafka.connect.utils.config.Title;
