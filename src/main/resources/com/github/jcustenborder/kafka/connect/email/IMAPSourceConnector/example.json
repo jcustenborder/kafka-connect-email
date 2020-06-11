@@ -1,0 +1,11 @@
+{
+  "name": "Gmail",
+  "description": "This example will connect to an IMAP endpoint for a gmail account.",
+  "config": {
+    "imap.hostname": "imap.gmail.com",
+    "imap.username": "example@gmail.com",
+    "imap.password": "osdnfgviudfngosdrt",
+    "imap.folder": "INBOX",
+    "imap.topic": "email"
+  }
+}
