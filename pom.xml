@@ -63,4 +63,27 @@
             <version>1.4.7</version>
         </dependency>
     </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>io.confluent</groupId>
+                <artifactId>kafka-connect-maven-plugin</artifactId>
+                <configuration>
+                    <confluentControlCenterIntegration>true</confluentControlCenterIntegration>
+                    <documentationUrl>https://jcustenborder.github.io/kafka-connect-documentation/</documentationUrl>
+                    <tags>
+                        <tag>Email</tag>
+                        <tag>MIME</tag>
+                        <tag>IMAP</tag>
+                    </tags>
+                    <componentTypes>
+                        <componentType>source</componentType>
+                    </componentTypes>
+                    <title>Kafka Connect Email</title>
+                    <supportUrl>${pom.issueManagement.url}</supportUrl>
+                    <supportSummary>Support provided through community involvement.</supportSummary>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
